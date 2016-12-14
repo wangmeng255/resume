@@ -1,0 +1,70 @@
+body, header, table, tr, th, h1, h2, h3, div, p {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  min-width: 100%;
+}
+h1 {
+  font-weight: bold;
+  font-size: 62px;
+  font-family: 'Julius Sans One', sans-serif;
+  text-align: center;
+  padding: 1rem 0;
+  color: white;
+  background: #9caaaa;
+}
+table {
+  display: block;
+  padding: 0 8%;
+  background: #f9eddf;
+  border-collapse: collapse;
+}
+h2 {
+  text-align: left;
+  font-size: 24px;
+  font-family: 'Archivo Narrow', sans-serif;
+  letter-spacing: 1.1px;
+  margin: 2.4rem 0;
+}
+h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: left;
+  margin-bottom: 1.2rem;
+  font-size: 18px;
+}
+tr {
+  border-bottom: 4px solid #a0a0a0;
+}
+table tr:last-child {
+  border-bottom-style: none;
+}
+th {
+  width: 46%;
+  font-weight: normal;
+  padding-bottom: 1.5rem;
+  vertical-align: top;
+}
+tr th:first-child {
+  padding-right: 4%;
+}
+tr th:last-child {
+  padding-left: 4%;
+}
+th div {
+  display: flex;
+  justify-content: space-between;
+}
+th p {
+  text-align: justify;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  margin: 0 0 1rem 0;
+}
+th div p:first-child {
+  font-weight: bolder;
+}
+b {
+  font-weight: 600;
+}
