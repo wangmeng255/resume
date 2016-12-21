@@ -5,6 +5,7 @@ body, header, table, tr, th, h1, h2, h3, div, p {
 }
 body {
   min-width: 100%;
+  background: #f9eddf;
 }
 h1 {
   font-weight: bold;
@@ -18,7 +19,6 @@ h1 {
 table {
   display: block;
   padding: 0 8%;
-  background: #f9eddf;
   border-collapse: collapse;
 }
 h2 {
