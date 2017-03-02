@@ -21,6 +21,10 @@ table {
   padding: 0 8%;
   border-collapse: collapse;
 }
+.profile div p {
+  font-size: 1.2rem;
+  padding: 0.2rem 0;
+}
 h2 {
   text-align: left;
   font-size: 24px;
