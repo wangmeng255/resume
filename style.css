@@ -9,7 +9,7 @@ body {
 }
 h1 {
   font-weight: bold;
-  font-size: 62px;
+  font-size: 3.2rem;
   font-family: 'Julius Sans One', sans-serif;
   text-align: center;
   padding: 1rem 0;
@@ -27,7 +27,7 @@ table {
 }
 h2 {
   text-align: left;
-  font-size: 24px;
+  font-size: 1.4rem;
   font-family: 'Archivo Narrow', sans-serif;
   letter-spacing: 1.1px;
   margin: 2rem 0;
@@ -36,7 +36,7 @@ h3 {
   font-family: 'Source Sans Pro', sans-serif;
   text-align: left;
   margin-bottom: 1.2rem;
-  font-size: 18px;
+  font-size: 1.2rem;
 }
 .second-third {
   text-align: right;
@@ -48,7 +48,7 @@ h4 {
   font-family: 'Source Sans Pro', sans-serif;
   text-align: left;
   margin-bottom: 0.5rem;
-  font-size: 16px;    
+  font-size: 1.1rem;    
 }
 tr {
   border-bottom: 4px solid #a0a0a0;
@@ -78,7 +78,7 @@ th>div {
 th p {
   text-align: justify;
   font-family: 'Source Sans Pro', sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   margin: 0 0 0.5rem 0;
 }
 th div p:first-child {
@@ -102,6 +102,10 @@ li {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+.summary {
+    font-size: 1.05rem;
+    padding-bottom: 1.2rem;
 }
 a {
     font-family: 'Source Sans Pro', sans-serif;
